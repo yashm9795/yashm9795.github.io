@@ -10227,5 +10227,15 @@ form .row:first-child .floating-label-form-group {
 }
 
 
-
-
+#rightImage
+{
+    height:275px;
+    float:left;
+    position:relative;
+    
+}
+#rightImage:hover img
+{
+    height: 300px;
+  
+}

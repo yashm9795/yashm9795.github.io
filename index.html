@@ -31,16 +31,18 @@
         <!-- Masthead-->    
         <header class="masthead bg-light text-black text-center">
             <div class="container d-flex align-items-center flex-column" >
-                <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/Profile.jpg" alt="" /><!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Yash Mehta</h1>
+                <!-- Masthead Avatar Image--><!-- Masthead Heading-->
+                <h2 class="masthead-heading text-uppercase mb-0" style="font-size: 50px">Yash Mehta</h2>
+                <p class="masthead-subheading font-weight-light mb-0">Product Manager</p>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line bg-secondary"></div>
                     <div class="divider-custom-icon bg-secondary"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line bg-secondary"></div>
                 </div>
+                <p class="masthead-subheading font-weight-light mb-0" style="font-family: Italia"> </p>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Product Manager</p>
+                
             </div>
         </header>
 
@@ -63,19 +65,27 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-9.5 ml-auto text-light"><p class="lead">
-                    Having the brain of an engineer, heart of the designer and speech of a diplomat, I specialize in using data and analytics to identify problems and craft simple solutions to address them. My interest in Product Management piqued when I was pursuing my Masters at University of Washington, Seattle. 
+                    <div class="col-lg-9.5 ml-auto text-light">
+                        <img class="masthead-avatar mb-5" src="assets/img/Profile.jpg" align="left"/ style="width: 40%"  hspace="30" vspace="15">
+                    <p class="lead" style="text-align: justify; text-justify:inter-word; font-size:20px; font-family: Aria">
+                    Having the brain of an engineer, heart of the designer and speech of a diplomat, I specialize in using data and analytics to identify problems
+                    and craft simple solutions to address them. 
                     </p>
-                    <p class="lead ">
+                    <p class="lead" style="text-align: justify; text-justify:inter-word;font-size:20px; font-family: Aria">
+                    My interest in Product Management piqued when I was pursuing my Masters at University of Washington, Seattle. 
+                    </p>
+                     <p class="lead" style="text-align: justify; text-justify:inter-word;font-size:20px; font-family: Aria">
+
+                   It all started when I became obsessed with my customers and their experiences after building my first product called GradnGo.
+                    </p>   
+                    <p class="lead" style="text-align: justify; text-justify:inter-word;font-size:20px; font-family: Aria">
 
                     Working as a Product Manager at Citrix, I am responsible for building features that drive cloud adoption and increase customer engagement.
                    </p>
-                    <p class="lead">
-
-                    My obsession with customers started when I built my first product called GradnGo.  It bombed massively due to an unsustainable business model but the lessons I learnt have indeed made me think holistically about a Product.
-                    </p>    
-                    <p class="lead"> 
-                    When I am not working, I am either hiking or visiting new places. After coming to United States I feel more connected to nature, thanks to the lush green landscape of Pacific Northwest. 
+                   
+                    <p class="lead" style="text-align: justify; text-justify:inter-word;font-size:20px; font-family: Aria"> 
+                    When I am not working, I am either hiking or visiting new places. After coming to United States I feel more connected to nature, thanks to 
+                    the lush green landscape of Pacific Northwest. 
                     </p></div>
                     <div class="col-lg-4 mr-auto"><p class="lead"></p></div>
              
@@ -167,7 +177,7 @@
         </section>
 
     
-
+<!--- SLIDESHOW SECTION
 
     <style>
 body {
@@ -276,6 +286,7 @@ img {
 }
 </style>
 
+
 <section class="page-section bg-secondary text-light mb-0" id="about">
 <h2 style="text-align:center">Slideshow Gallery</h2>
 
@@ -302,7 +313,10 @@ img {
     
   <a class="prev" onclick="plusSlides(-1)">❮</a>
   <a class="next" onclick="plusSlides(1)">❯</a>
+
 </div>
+  --->
+
 <!---
   <div class="caption-container">
     <p id="caption"></p>
@@ -331,7 +345,7 @@ img {
 </div>
 
 --->
-
+<!---
 <script>
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -363,50 +377,56 @@ function showSlides(n) {
 }
 </script>
     
-
+--->
         <!-- Contact Section-->
-        <section class="page-section bg-light " id="contact">
+        <section class="page-section bg-secondary" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-light mb-0">Contact Me</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
-                    <div class="divider-custom-line bg-secondary"></div>
+                    <div class="divider-custom-line bg-light"></div>
                     <div class="divider-custom-icon bg-light"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line bg-secondary"></div>
+                    <div class="divider-custom-line bg-light"></div>
 
 
 
                 </div>
 
-                <!-- Contact Section Form
+  
+  
+ 
                 <div class="row">
                     <div class="col-lg-8 mx-auto bg-light">
                         <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
-                        <!-- 
-                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                        
+                        <form action="https://formspree.io/xlepaeaz" method="POST" >
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Name</label><input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name." />
+                                    <label>Name</label>
+                                    <input type="name" placeholder="Name" >
 
-                                  
                                 </div>
                             </div>
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Email Address</label><input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address." />
+                                    <label>Email Address</label>
+                                    <input type="email" placeholder="Email">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Phone Number</label><input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number." />
+                                    <label>Phone Number</label>
+                                    <input type="text" placeholder="Phone Number">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Message</label><textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                    <label>Message</label>
+                                    <textarea name="message" placeholder="Enter your message" style="height:90px"></textarea>
+                                         
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -418,23 +438,24 @@ function showSlides(n) {
                 </div>
             </div>
         </section>
+
         <!-- Footer-->
-        <footer class="footer text-center bg-light">
+        <footer class="footer text-center bg-secondary">
             <div class="container">
                 <div class="row">
                     <!-- Footer Location-->
                     
                     <!-- Footer Social Icons-->
-                    <div class="col-lg-12 mb-5 mb-lg-0 text-secondary">
+                    <div class="col-lg-12 mb-5 mb-lg-0 text-light">
                         <h4 class="text-uppercase mb-4">Around the Web</h4>
 
 
                       
 
-                 <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank" class="btn btn-outline-secondary btn-social mx-1" ><i class="fab fa-fw fa-linkedin-in"></i></a>
-                 <a class="btn btn-outline-secondary btn-social mx-1" href="#"><i class="fab fa-fw fa-dribbble"></i></a>
+                 <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank" class="btn btn-outline-light btn-social mx-1" ><i class="fab fa-fw fa-linkedin-in"></i></a>
+                 <a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-fw fa-dribbble"></i></a>
                     </div>
-                   <div class="col-lg-12 mb-5 text-secondary">
+                   <div class="col-lg-12 mb-5 text-light">
                     <br>
                         <p>Yash Mehta's Production</p>
                         </div>

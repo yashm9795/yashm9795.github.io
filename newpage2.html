@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>hello </title>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav"> 
+
+
+            <a href="index.html"> <i class="fa fa-home fa-3x"  style="color: white" ></i></a>
+
+
+
+        </nav>
+        <div class="container">
+            <div style="padding-top: 100px"> 
+                <div class="row">
+                    <div class="col-sm-14">
+                        <h1> &emsp;&emsp;&emsp;&emsp; Scale and Performance for MCS on AWS</h1> 
+
+                        <p>Context: Infrastructure  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Duration : 4 weeks&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  &emsp; &emsp; &emsp; Team-members: Citrix Dev Team </p>
+
+                        <p> <b>Problem Statement:</b> <br>  With a sudden uptick in number of workloads being migrated to cloud, customers demanded faster provisioning and power management operations </p>
+                        
+                        <b> Process:</b> <br>
+                        Covid-19 forced millions of people to work remotely and imposed a huge stress on resources. It proved to be the catalyst in migrating workloads to cloud. With that in mind we received a lot of requests for faster provisioning and power management operations. To support our customers we started testing Machine Creation Services (MCS) on AWS. After engaging with Amazon, understanding their workflow and  and increasing our quota limits we are now able to provision and power manage 1500 VMs on AWS. 
+                        The following operations were performed while testing:
+
+                         </p>
+
+                            
+                        </p>
+
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+
+<table style="width: 100%">
+
+  <tr>
+    <th>Operation</th>
+    <th>Time (Minutes) </th>
+   
+  </tr>
+  <tr>
+    <td>Create 2 catalogs</td>
+    <td>10</td>
+
+  </tr>
+  <tr>
+    <td>Provision 750 machines in each catalog</td>
+    <td>249</td>
+   
+  </tr>
+  <tr>
+    <td>Start all machines</td>
+    <td>33</td>
+    
+  </tr>
+  <tr>
+    <td>Stop all machines</td>
+    <td>33</td>
+   
+  </tr>
+  <tr>
+    <td>Update Catalogs' image</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>Post Update Start all machines</td>
+    <td>35</td>
+  </tr>
+
+  <tr>
+      <td>Delete Catalogs </td>
+      <td>34</td>
+  </tr>
+</table>
+<br>  
+
+<p> We made some changes to the default configurations that customer will need to use to achieve the following performance and scale numbers. My blog on Scale and Performance for  <a href="https://www.citrix.com/blogs/2020/06/16/performance-and-scale-testing-for-machine-creation-services-on-aws/" >MCS on Amazon Web Services </a> highlights all the details: </p>
+
+                        <p>The recommended configuration to achieve the documented scale and performance is as follows:</p>
+
+
+                        <p><img src="assets/img/CTRX/AWS_Performance_improvement.png" width="600" height="450" alt="" style="border:5px solid black;" /></p>
+
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+           
+
+    
+            <!-- Copyright Section-->
+        <!--
+        <section class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright © Your Website 2020</small></div>
+        </section>
+
+  
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <!--
+        <div class="scroll-to-top d-lg-none position-fixed">
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+    -->
+       
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
